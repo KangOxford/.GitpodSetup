@@ -1,2 +1,2 @@
-code --install-extension ms-toolsai.jupyter
-code --install-extension ms-python.python
+sudo code --install-extension ms-toolsai.jupyter
+sudo code --install-extension ms-python.python
