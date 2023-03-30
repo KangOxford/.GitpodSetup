@@ -32,6 +32,6 @@ API Reference
    :toctree: _api
    :caption: API Reference
    :recursive:
-   :template: autosummary/module.rst
+   :template: modules.rst
 
    gym_exchange
