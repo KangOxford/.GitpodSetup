@@ -1,8 +1,8 @@
 Module
 =========
 
-.. automodule:: gym_exchange
-    :members:
+.. automodule:: gym_exchange.exchange
+    :members: 
     :undoc-members:
     :show-inheritance:
 
