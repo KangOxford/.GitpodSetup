@@ -1,4 +1,4 @@
-Modules
+Module
 =========
 
 .. automodule:: gym_exchange

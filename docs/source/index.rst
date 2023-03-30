@@ -27,14 +27,16 @@ Usage
    gym_exchange
    gymnax_exchange
 
-   
+
 API Reference
 ~~~~~~~~~~~~~
+.. toctree::
+   module.rst
 
 .. autosummary::
    :toctree: _api
    :caption: API Reference
    :recursive:
-   :template: modules.rst
+   :template: module.rst
 
    gym_exchange
