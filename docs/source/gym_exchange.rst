@@ -20,14 +20,12 @@ For example:
 >>> import gym_exchange
 >>> gym_exchange.make()
 
-.. include:: /gym_exchange/data_orderbook_adapter/README.md
+.. include:: /src/gym_exchange/data_orderbook_adapter/README.md
    :parser: myst_parser.sphinx_
 
-.. include:: /AlphaTrade/gym_exchange/data_orderbook_adapter/README.md
+.. include:: /src/AlphaTrade/gym_exchange/data_orderbook_adapter/README.md
    :parser: myst_parser.sphinx_
 
-.. include:: ../../README.md
-   :parser: myst_parser.sphinx_
 
 
 data_orderbook_adapter
