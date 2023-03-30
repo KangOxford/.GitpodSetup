@@ -68,14 +68,14 @@ autosummary_imported_members = True
 
 # -- Project information -----------------------------------------------------
 import os
-from importlib import metadata
+# from importlib import metadata
 
-project = "gym_exchange"
-copyright = "2019-2022, Center for Human-Compatible AI"  # noqa: A001
-author = "Center for Human-Compatible AI"
+# project = "gym_exchange"
+# copyright = "2019-2022, Center for Human-Compatible AI"  # noqa: A001
+# author = "Center for Human-Compatible AI"
 
-# The full version, including alpha/beta/rc tags
-version = metadata.version("gym_exchange")
+# # The full version, including alpha/beta/rc tags
+# version = metadata.version("gym_exchange")
 
 
 # -- General configuration ---------------------------------------------------
@@ -149,7 +149,7 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-html_css_files = ["css/custom.css"]
+html_css_files = ["css/baselines_theme.css"]
 
 # -- Customization -----------------------------------------------------------
 
@@ -173,4 +173,3 @@ def setup(app):
         "autodoc-process-docstring",
         no_namedtuple_attrib_docstring,
     )
-    app.add_css_file("css/baselines_theme.css")
