@@ -15,11 +15,11 @@ Architecture of the package
 
 * ``gymnax_exchange``: the ``GPU`` version of rl_trading_environment
 
-    * ``jaxob``: Jax limit order book
+  * ``jaxob``: Jax limit order book
 
-    * ``jaxes``: Jax exchange
+  * ``jaxes``: Jax exchange
 
-    * ``jaxen``: Jax rl_trading_environment
+  * ``jaxen``: Jax rl_trading_environment
 
 
 
