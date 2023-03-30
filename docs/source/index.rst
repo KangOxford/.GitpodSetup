@@ -17,9 +17,12 @@ Contents
 .. toctree::
    introduction
    usage
+   modules
    gym_exchange
    gymnax_exchange
    future_research
+
+
 
 
 API Reference
