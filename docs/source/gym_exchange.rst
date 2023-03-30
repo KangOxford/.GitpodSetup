@@ -21,17 +21,17 @@ For example:
 >>> gym_exchange.make()
 
 
+.. include:: /AlphaTrade/gym_exchange/data_orderbook_adapter/README.md
+   :parser: myst_parser.sphinx_
+
+.. include:: ../../README.md
+   :parser: myst_parser.sphinx_
 
 
 data_orderbook_adapter
 ---------
 
 
-.. include:: /AlphaTrade/gym_exchange/data_orderbook_adapter/README.md
-   :parser: myst_parser.sphinx_
-
-.. include:: ../../README.md
-   :parser: myst_parser.sphinx_
 
 
 Outlines for the codes:
@@ -52,7 +52,9 @@ Outlines for the codes:
 
 
 3 ``encoder.py`` is used for transfer the ``trading signals`` into ``order flows``, the later is machine-readable for the package ``orderbook/jaxob``
-  * :py:func:`decoder = Decoder(**DataPipeline()()); encoder = Encoder(decoder); Ofs = encoder()`
+  * >>> decoder = Decoder(**DataPipeline()())
+    >>> encoder = Encoder(decoder)
+    >>> Ofs = encoder()
 
 
 
