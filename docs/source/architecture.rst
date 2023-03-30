@@ -1,4 +1,4 @@
-Architecture of the package:
+Architecture of the package
 ========
 
 * `gym_exchange`: the `CPU` version of rl_trading_environment

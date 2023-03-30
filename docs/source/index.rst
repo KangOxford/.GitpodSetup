@@ -15,9 +15,7 @@ Contents
 --------
 
 .. toctree::
-   introduction
-
-
+   architecture
    future_research
 
 
@@ -31,7 +29,7 @@ Usage
 API Reference
 ~~~~~~~~~~~~~
 .. toctree::
-   module.rst
+   module
 
 .. autosummary::
    :toctree: _api
