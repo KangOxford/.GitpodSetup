@@ -20,6 +20,8 @@ For example:
 >>> import gym_exchange
 >>> gym_exchange.make()
 
+.. include:: /gym_exchange/data_orderbook_adapter/README.md
+   :parser: myst_parser.sphinx_
 
 .. include:: /AlphaTrade/gym_exchange/data_orderbook_adapter/README.md
    :parser: myst_parser.sphinx_
@@ -31,7 +33,11 @@ For example:
 data_orderbook_adapter
 ---------
 
+.. toctree::
 
+   /gym_exchange/data_orderbook_adapter/myfile.md
+   /AlphaTrade/gym_exchange/data_orderbook_adapter/README.md
+   ../../README.md
 
 
 Outlines for the codes:
