@@ -1,12 +1,12 @@
 """gym_exchange: implementations of gym_exchange and reward learning algorithms."""
 
-# from importlib import metadata
+from importlib import metadata
 
-# try:
-#     __version__ = metadata.version("gym_exchange")
-# except metadata.PackageNotFoundError:  # pragma: no cover
-#     # package is not installed
-#     pass
+try:
+    __version__ = metadata.version("gym_exchange")
+except metadata.PackageNotFoundError:  # pragma: no cover
+    # package is not installed
+    pass
 
 
 

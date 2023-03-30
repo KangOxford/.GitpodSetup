@@ -20,16 +20,14 @@ Contents
 
 
 Usage
-~~~~~
+--------
 .. toctree::
    gym_exchange
    gymnax_exchange
 
 
 API Reference
-~~~~~~~~~~~~~
-.. toctree::
-   module
+--------
 
 .. autosummary::
    :toctree: _api
@@ -38,8 +36,3 @@ API Reference
    :template: module.rst
 
    gym_exchange
-
-Index
-==================
-
-* :ref:`modindex`

@@ -52,7 +52,7 @@ Outlines for the codes:
        * the ``OutsideSignal`` means the trading signals outside the price level (e.g. 10 for our example data)
        * ``SignalPorcessor`` is a class used to ensure the trading signals is right by executing the trading signals and then get the orderbook and then compare the generated orderbook with the l2 data.
      * class ``DataAdjuster`` is another important part of the decoder, which helps ``adjust_data_drift``. It means that the l2 and l3 data may contains different info, and this class is usd for extracting the useful info which might be in the l2 data, but not l3.
-      * e.g. some order is partly cancelled outside the price level
+       * e.g. some order is partly cancelled outside the price level
 
 
 3 ``encoder.py`` is used for transfer the ``trading signals`` into ``order flows``, the later is machine-readable for the package ``orderbook/jaxob``
