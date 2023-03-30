@@ -1,4 +1,4 @@
-"""imitation: implementations of imitation and reward learning algorithms."""
+"""gym_exchange: implementations of gym_exchange and reward learning algorithms."""
 
 from importlib import metadata
 

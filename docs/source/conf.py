@@ -70,12 +70,12 @@ autosummary_imported_members = True
 import os
 from importlib import metadata
 
-project = "imitation"
+project = "gym_exchange"
 copyright = "2019-2022, Center for Human-Compatible AI"  # noqa: A001
 author = "Center for Human-Compatible AI"
 
 # The full version, including alpha/beta/rc tags
-version = metadata.version("imitation")
+version = metadata.version("gym_exchange")
 
 
 # -- General configuration ---------------------------------------------------
@@ -134,9 +134,9 @@ autodoc_default_options = {
 # a list of builtin themes.
 #
 html_theme = "furo"
-html_title = "imitation"
+html_title = "gym_exchange"
 html_theme_options = {
-    "source_repository": "https://github.com/HumanCompatibleAI/imitation",
+    "source_repository": "https://github.com/HumanCompatibleAI/gym_exchange",
     "source_branch": "master",
     "source_directory": "docs",
     "light_css_variables": {
