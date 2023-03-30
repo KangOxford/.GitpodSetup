@@ -18,15 +18,6 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     "sphinx.ext.napoleon",
-    "sphinx.ext.autodoc",
-    "sphinx_autodoc_typehints",
-    "sphinx.ext.autosummary",
-    "sphinx.ext.mathjax",
-    "sphinx.ext.viewcode",
-    "sphinx_copybutton",
-    "sphinx_github_changelog",
-    "sphinx.ext.doctest",
-    "myst_nb",
     "myst_parser.sphinx_",
 ]
 
