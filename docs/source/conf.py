@@ -173,3 +173,4 @@ def setup(app):
         "autodoc-process-docstring",
         no_namedtuple_attrib_docstring,
     )
+    app.add_css_file("css/baselines_theme.css")
