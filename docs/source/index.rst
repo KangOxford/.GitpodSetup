@@ -16,15 +16,18 @@ Contents
 
 .. toctree::
    introduction
-   usage
-   modules
-   gym_exchange
-   gymnax_exchange
+
+
    future_research
 
 
+Usage
+~~~~~
+.. toctree::
+   gym_exchange
+   gymnax_exchange
 
-
+   
 API Reference
 ~~~~~~~~~~~~~
 
