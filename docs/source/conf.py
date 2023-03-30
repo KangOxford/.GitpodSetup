@@ -73,7 +73,7 @@ copyright = "2019-2022, Center for Human-Compatible AI"  # noqa: A001
 author = "Center for Human-Compatible AI"
 
 # The full version, including alpha/beta/rc tags
-version = metadata.version("imitation")
+version = metadata.version("gym_exchange")
 
 
 # -- General configuration ---------------------------------------------------
@@ -132,10 +132,10 @@ autodoc_default_options = {
 # a list of builtin themes.
 #
 html_theme = "furo"
-html_title = "imitation"
+html_title = "gym_exhchange"
 html_theme_options = {
-    "source_repository": "https://github.com/HumanCompatibleAI/imitation",
-    "source_branch": "master",
+    "source_repository": "https://github.com/KangOxford/AlphaTrade",
+    "source_branch": "jax",
     "source_directory": "docs",
     "light_css_variables": {
         "sidebar-item-font-size": "85%",
