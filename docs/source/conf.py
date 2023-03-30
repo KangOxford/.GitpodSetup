@@ -134,7 +134,7 @@ autodoc_default_options = {
 # a list of builtin themes.
 #
 # html_theme = "latest"
-# html_theme = "furo"
+html_theme = "furo"
 html_title = "AlphaTrade"
 html_theme_options = {
     "source_repository": "https://github.com/KangOxford/AlphaTrade",
