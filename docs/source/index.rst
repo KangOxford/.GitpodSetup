@@ -31,4 +31,4 @@ API Reference
    :recursive:
    :template: autosummary/module.rst
 
-   imitation
+   gym_exchange

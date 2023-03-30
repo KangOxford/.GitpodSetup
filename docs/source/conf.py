@@ -19,7 +19,6 @@ extensions = [
     'sphinx.ext.intersphinx',
     "sphinx.ext.napoleon",
     "myst_parser",
-    "colon_fence",
     "myst_parser.sphinx_",
 ]
 
