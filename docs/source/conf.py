@@ -18,6 +18,7 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     "sphinx.ext.napoleon",
+    "myst_parser",
     "myst_parser.sphinx_",
 ]
 
@@ -35,8 +36,3 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
-
-
-source_suffix = [
-    ".md",
-]
