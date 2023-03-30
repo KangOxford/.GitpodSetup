@@ -20,3 +20,15 @@ Contents
    gym_exchange
    gymnax_exchange
    future_research
+
+
+API Reference
+~~~~~~~~~~~~~
+
+.. autosummary::
+   :toctree: _api
+   :caption: API Reference
+   :recursive:
+   :template: autosummary/module.rst
+
+   imitation
