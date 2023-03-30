@@ -38,3 +38,8 @@ API Reference
    :template: module.rst
 
    gym_exchange
+
+Index
+==================
+
+* :ref:`modindex`
