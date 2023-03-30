@@ -74,8 +74,8 @@ project = "gym_exchange"
 copyright = "2019-2022, Center for Human-Compatible AI"  # noqa: A001
 author = "Center for Human-Compatible AI"
 
-# The full version, including alpha/beta/rc tags
-version = metadata.version("gym_exchange")
+# # The full version, including alpha/beta/rc tags
+# version = metadata.version("gym_exchange")
 
 
 # -- General configuration ---------------------------------------------------
