@@ -99,5 +99,4 @@ Related Papers
 Related Techniques
 ----------
 * Long Sequence Modelling
-   * :ref:`_s5`
    * :doc:`_s5`
