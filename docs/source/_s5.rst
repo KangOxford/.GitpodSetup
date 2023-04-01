@@ -1,6 +1,6 @@
 .. _s5:
 
-SIMPLIFIED STATE SPACE LAYERS FOR SEQUENCE MODELING
+Simplified state space layers for sequence modeling
 ================================================================
 
 Summary:
@@ -15,27 +15,34 @@ Summary:
 
 Background:
 -----
-a. Subject and characteristics:
-The paper discusses the challenge of efficiently modeling long sequences in machine learning, given that crucial information may be encoded between observations that are thousands of timesteps apart.
+a. Subject and characteristics
+
+   * The paper discusses the challenge of efficiently modeling long sequences in machine learning, given that crucial information may be encoded between observations that are thousands of timesteps apart.
 
 b. Historical development
-Special variants of recurrent neural networks, convolutional neural networks, and transformers have been developed to tackle this problem, but these methods still perform poorly on very long-range sequence tasks.
+
+   * Special variants of recurrent neural networks, convolutional neural networks, and transformers have been developed to tackle this problem, but these methods still perform poorly on very long-range sequence tasks.
 
 c. Past methods
-The authors discuss the challenge of efficiently modeling long sequences in machine learning.
+
+   * The authors discuss the challenge of efficiently modeling long sequences in machine learning.
 
 d. Past research shortcomings
-The existing methods perform poorly on very long-range sequence tasks.
+
+   * The existing methods perform poorly on very long-range sequence tasks.
 
 e. Current issues to address
-The need for efficient long-range sequence modeling in machine learning.
+
+   * The need for efficient long-range sequence modeling in machine learning.
 
 Methods:
 -----
 a. Study's theoretical basis
+
    * The approach is based on the use of structured state space sequence (S4) layers.
 
 b. Article's technical route (step by step)
+
    * The authors introduce a new state space layer, the S5 layer, which builds on the design of the S4 layer, and uses one multi-input, multi-output SSM instead of many independent single-input, single-output SSMs. The S5 layer combines linear state space models (SSMs), the HiPPO framework, and deep learning to achieve high performance. They establish a mathematical relationship between S4 and S5 and conduct thorough ablation studies to explore various parameterization and initialization design choices. The S5 layer uses an efficient and widely-implemented parallel scan, removing the need for the convolutional and frequency-domain approach used by S4.
 
 Conclusion:
