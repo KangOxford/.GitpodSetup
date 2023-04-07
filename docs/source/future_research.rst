@@ -82,12 +82,14 @@ Related Papers
    * Mid Related
       * A tabular sarsa-based stock market agent
       * Dynamic prediction length for time series with sequence to sequence network
+* OMI Research Newsletter
+   * fa
 * Other related papers
    * :doc:`_stock`
    * :doc:`_generating`
    * :doc:`_deeprl`
    * :doc:`_many` 
-       | from **OMI Research Newsletter – April 2023**
+      | from **OMI Research Newsletter – April 2023**
 
 
 
